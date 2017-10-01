@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>scala-examples</groupId>
+  <artifactId>scala-examples</artifactId>
+  <version>0.0.1-SNAPSHOT</version> 
+  <packaging>jar</packaging>
+  
+  	<name>scala-examples</name>
+	<url>http://maven.apache.org</url>
+	
+  	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<scala.version>2.11.8</scala.version>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<artifactId>scala-library</artifactId>
+			<groupId>org.scala-lang</groupId>
+			<version>${scala.version}</version>
+		</dependency>
+		
+				<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.6</version>
+		</dependency>
+
+		<!-- tests -->
+		<dependency>
+			<groupId>org.scalatest</groupId>
+			<artifactId>scalatest_2.11</artifactId>
+			<version>2.2.2</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<artifactId>junit</artifactId>
+			<groupId>junit</groupId>
+			<version>4.4</version>
+			<scope>test</scope>
+		</dependency>
+		
+		</dependencies>
+  
+</project>
